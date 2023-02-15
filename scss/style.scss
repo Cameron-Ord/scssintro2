@@ -1,0 +1,31 @@
+body{
+font-size: 1em;
+}
+ 
+@import "header.scss";
+
+#page_main {
+    width: 100%;
+    background-color: darkslategrey;
+    
+    min-height: 80vh;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    }
+    
+    .articlemain {
+    border-style: double;
+    background-color: darkslategray;
+        min-height: 80vh;
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        grid-template-rows: auto;
+        
+        >img{
+width: 20vw;
+            height: 40vh;
+        }
+    }
